@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Dark Energy</title>
+    <title>Dark Energy Login</title>
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/all.min.css">
@@ -64,9 +64,6 @@
                       <option lang="En" value="english">En</option>
                       <option lang="Se" value="Swedish">Se</option>
                   </select>
-                  <div class="header-buttons d-none d-md-flex">
-                      <a href="#" class="cmn--btn btn--white btn-pill">LOGIN</a>
-                  </div>
                   <div class="header-bar d-lg-none ms-3">
                       <span></span>
                       <span></span>
@@ -85,7 +82,13 @@
                     <div class="contact__wrapper p-35 h-100 contact__wrapper-single">
                         <form class="form__form row g-3" id="passwordPurgatory">
                             <div class="col-lg-12">
+                                <div class="form--group m-0">
+                                    <input type="text" class="form-control form--control-2 h--60px" placeholder="email, .eth or 0x">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
                                 <input class="form-control" autocapitalize="off" autocorrect="off" id="password" name="password" placeholder="enter password" spellcheck="false" type="password">
+                                <br></br>
                                 <button class="cmn--btn btn--white" type="submit">Login</button>
                                 <br></br>
                                 <p class="text-white" id="response"></p>
@@ -97,7 +100,7 @@
         </div>
     </section>
 
-    <footer class="footer-section pt-120 position-relative bg_img" data-img="C:\Users\adminIStrue\Documents\WEBDEV\darkenergy\images\shapes-bg\footer-bg-4.png">
+    <footer class="footer-section pt-120 position-relative bg_img" data-img="./assets/images/shapes-bg/footer-bg-4.png">
         <div class="container">
               <div class="pb-50">
                   <div class="row g-4 align-items-lg-center justify-content-center">
@@ -191,7 +194,7 @@
     <script src="./assets/js/odometer.min.js"></script>
     <script src="./assets/js/nice-select.js"></script>
     <script src="./assets/js/owl.min.js"></script>
-	  <script src="./assets/js/countdown.min.js"></script>
+	<script src="./assets/js/countdown.min.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/make-hell.js"></script>
 
